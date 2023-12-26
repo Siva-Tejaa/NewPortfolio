@@ -1,0 +1,26 @@
+:root{
+  --theme-light-background:"#FFFFFF";
+  --theme-dark-background:"#1B242C";
+
+  --theme-light-text-color:"#09090B";
+  --theme-dark-text-color:"#FFFFFF";
+
+}
+
+
+/*---------- Side Scrollbar ----------*/
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(232, 58, 165);
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #d4d4d8;
+}
