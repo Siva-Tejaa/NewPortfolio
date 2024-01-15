@@ -1,10 +1,9 @@
 :root{
-  --theme-light-background:"#FFFFFF";
-  --theme-dark-background:"#1B242C";
+  --themeLightBackground:"#474BFF";
+  --themeDarkBackground:"#1B242C";
 
   --theme-light-text-color:"#09090B";
   --theme-dark-text-color:"#FFFFFF";
-
 }
 
 
@@ -16,7 +15,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(232, 58, 165);
+  background: #474BFF;
   border-radius: 10px;
 }
 
@@ -24,3 +23,4 @@
 ::-webkit-scrollbar-track {
   background: #d4d4d8;
 }
+
