@@ -2,4 +2,14 @@ header{
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: saturate(180%) blur(20px);
     box-shadow: rgba(71, 75, 255, 0.075) 0px 2px 3px;
+
+
+    /* background: rgba(255,255,255,0.3);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px); */
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
 }
