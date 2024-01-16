@@ -9,20 +9,35 @@ import Contact from "./Contact/Contact";
 
 import { Context } from "./utils/Context";
 import MobileNav from "./Header/MobileNav";
+import About from "./About/About";
+import Home from "./Home/Home";
 
 const App = () => {
-  const [activeItem, setActiveItem] = useState("Home");
+  const [activeItem, setActiveItem] = useState("home");
   const [darkMode, setDarkMode] = useState(true);
+
+  const scrollToTarget = (targetID) => {
+    document.getElementById(targetID).scrollIntoView({ block: "start" });
+    setActiveItem(targetID);
+  };
 
   return (
     <Context.Provider
-      value={{ activeItem, setActiveItem, darkMode, setDarkMode }}
+      value={{
+        activeItem,
+        setActiveItem,
+        darkMode,
+        setDarkMode,
+        scrollToTarget,
+      }}
     >
       <Header />
       <MobileNav />
-      <main>
+      <main className="p-2">
+        <Home />
         <Skills />
         <Projects />
+        <About />
         <Contact />
       </main>
       <Footer />
