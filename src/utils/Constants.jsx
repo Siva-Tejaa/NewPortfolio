@@ -1,33 +1,33 @@
-import { AiTwotoneHome } from "react-icons/ai";
-import { BsCalendar2EventFill } from "react-icons/bs";
-import { MdPeopleAlt } from "react-icons/md";
-import { IoMdPhotos } from "react-icons/io";
-import { FaLocationDot } from "react-icons/fa6";
+import { GoHome } from "react-icons/go";
+import { GoPerson } from "react-icons/go";
+import { IoDocumentTextOutline } from "react-icons/io5";
+import { GoProject } from "react-icons/go";
+import { RiSendPlaneLine } from "react-icons/ri";
 
 export const navItems = [
   {
     id: 1,
     name: "Home",
-    icon: <AiTwotoneHome fontSize="1.3em" />,
+    icon: <GoHome fontSize="1.3em" />,
   },
   {
     id: 2,
-    name: "Events",
-    icon: <BsCalendar2EventFill fontSize="1.2em" />,
+    name: "Skills",
+    icon: <IoDocumentTextOutline fontSize="1.3em" />,
   },
   {
     id: 3,
-    name: "Contact",
-    icon: <MdPeopleAlt fontSize="1.4em" />,
+    name: "Projects",
+    icon: <GoProject fontSize="1.3em" />,
   },
   {
     id: 4,
-    name: "Gallery",
-    icon: <IoMdPhotos fontSize="1.3em" />,
+    name: "About",
+    icon: <GoPerson fontSize="1.3em" />,
   },
   {
     id: 5,
-    name: "Venue",
-    icon: <FaLocationDot fontSize="1.3em" />,
+    name: "Contact",
+    icon: <RiSendPlaneLine fontSize="1.3em" />,
   },
 ];

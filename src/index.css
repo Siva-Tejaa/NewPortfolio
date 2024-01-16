@@ -7,4 +7,6 @@
   padding: 0px;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Poppins', sans-serif;
 }
