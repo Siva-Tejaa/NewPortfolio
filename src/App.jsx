@@ -21,6 +21,20 @@ const App = () => {
     setActiveItem(targetID);
   };
 
+  const consoleStyles = `
+    font-family: Dancing Script, cursive;
+    padding: 6px;
+    background-color:#474BFF;
+    color:#FFFF;
+    border-radius:4px;
+    font-size:26px;
+  `;
+
+  {
+    console.log("%c <𝕾𝖎𝖛𝖆 𝕿𝖊𝖏𝖆/>", consoleStyles);
+    console.log("Welcome to my Portfolio Website. Happy Debugging!");
+  }
+
   return (
     <Context.Provider
       value={{
