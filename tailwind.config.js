@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#474BFF",
+        // secondary: 'var(--secondary-color)',
+      },
+    },
     screens: {
       tablet: "481px",
       laptop: "768px",
@@ -10,4 +15,5 @@ export default {
     },
   },
   plugins: [],
+  darkMode: "class",
 };

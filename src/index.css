@@ -11,4 +11,6 @@
 
   /* font-family: 'Dancing Script', cursive; */
   font-family: 'Poppins', sans-serif;
+
+  @apply transition-colors duration-0
 }

@@ -12,8 +12,8 @@ export const navItems = [
   },
   {
     id: 2,
-    name: "Skills",
-    icon: <IoDocumentTextOutline fontSize="1.3em" />,
+    name: "About",
+    icon: <GoPerson fontSize="1.3em" />,
   },
   {
     id: 3,
@@ -22,8 +22,8 @@ export const navItems = [
   },
   {
     id: 4,
-    name: "About",
-    icon: <GoPerson fontSize="1.3em" />,
+    name: "Skills",
+    icon: <IoDocumentTextOutline fontSize="1.3em" />,
   },
   {
     id: 5,

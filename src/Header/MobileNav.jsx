@@ -8,19 +8,19 @@ const MobileNav = () => {
     useContext(Context);
 
   return (
-    <nav className="w-[100%] p-2 rounded-sm flex items-center justify-between gap-4 fixed bottom-0 bg-white shadow-[0_-1px_4px_rgba(0,0,0,0.15)] laptop:hidden">
+    <nav className="w-[100%] p-2 rounded-sm flex justify-around gap-4 fixed bottom-0 bg-white shadow-[0_-1px_4px_rgba(0,0,0,0.15)] laptop:hidden">
       {navItems.map((navItem) => (
         <div
           key={navItem?.id}
           className={
             activeItem === navItem?.name.toLowerCase()
-              ? "flex flex-col items-center cursor-pointer text-orange-500"
+              ? "flex flex-col items-center cursor-pointer text-primary"
               : "flex flex-col items-center cursor-pointer"
           }
           onClick={() => scrollToTarget(navItem?.name.toLowerCase())}
         >
           {navItem?.icon}
-          <span className="text-sm">{navItem?.name}</span>
+          <span className="text-xs">{navItem?.name}</span>
         </div>
       ))}
     </nav>

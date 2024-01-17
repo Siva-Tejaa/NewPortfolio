@@ -9,11 +9,11 @@ import { Context } from "../utils/Context";
 import { navItems } from "../utils/Constants";
 
 const Header = () => {
-  const { darkMode, setDarkMode, activeItem, scrollToTarget } =
+  const { darkMode, activeItem, scrollToTarget, setLightDarkTheme } =
     useContext(Context);
 
   return (
-    <header className="px-4 py-3 flex items-center justify-between">
+    <header className="px-4 py-3 flex items-center justify-between dark:bg-[#0F172A] dark:text-white">
       <h1
         className="text-2xl cursor-pointer laptop:text-3xl"
         style={{ fontFamily: "'Dancing Script', cursive" }}
@@ -29,7 +29,7 @@ const Header = () => {
               onClick={() => scrollToTarget(navItem?.name.toLowerCase())}
               className={
                 activeItem === navItem?.name.toLowerCase()
-                  ? "cursor-pointer text-orange-500"
+                  ? "cursor-pointer text-primary"
                   : "cursor-pointer"
               }
             >
@@ -37,7 +37,11 @@ const Header = () => {
             </div>
           ))}
         </nav>
-        <div>
+        <div
+          onClick={setLightDarkTheme}
+          title="Toggle Theme"
+          className="cursor-pointer"
+        >
           {darkMode ? (
             <MdOutlineDarkMode fontSize="1.6em" />
           ) : (
