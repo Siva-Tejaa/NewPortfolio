@@ -15,10 +15,10 @@ const Header = () => {
   return (
     <header className="px-4 py-3 flex items-center justify-between bg-background3 shadow-sm dark:bg-[#0F172A] dark:text-white">
       <h1
-        className="text-3xl cursor-pointer"
+        className="text-3xl text-primary cursor-pointer"
         style={{
           fontFamily: "'Dancing Script', cursive",
-          filter: "drop-shadow(1px 0px 0px #0e0e0e)",
+          filter: "drop-shadow(1px 0px 0px #474BFF)",
         }}
         onClick={() => scrollToTarget("home")}
       >
