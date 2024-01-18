@@ -14,8 +14,8 @@ const MobileNav = () => {
           key={navItem?.id}
           className={
             activeItem === navItem?.name.toLowerCase()
-              ? "flex flex-1 flex-col items-center cursor-pointer text-primary"
-              : "flex flex-1 flex-col items-center cursor-pointer"
+              ? "flex flex-1 flex-col items-center cursor-pointer text-primary p-1 font-semibold"
+              : "flex flex-1 flex-col items-center cursor-pointer p-1 font-semibold hover:text-primary"
           }
           onClick={() => scrollToTarget(navItem?.name.toLowerCase())}
         >
