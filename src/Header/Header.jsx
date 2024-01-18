@@ -13,7 +13,7 @@ const Header = () => {
     useContext(Context);
 
   return (
-    <header className="px-4 py-3 flex items-center justify-between bg-background3 shadow-sm dark:bg-[#0F172A] dark:text-white">
+    <header className="z-10 px-4 py-3 flex items-center justify-between bg-background3 shadow-md dark:bg-[#0F172A] dark:text-white">
       <h1
         className="text-3xl text-primary cursor-pointer"
         style={{
