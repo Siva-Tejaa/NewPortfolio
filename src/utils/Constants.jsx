@@ -4,6 +4,15 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { GoProject } from "react-icons/go";
 import { BsSend } from "react-icons/bs";
 
+//Images
+import PortfolioProfileImage from "../assets/PortfolioProfile.png";
+
+//Resume
+import Resume from "../assets/SivaTeja-Resume.pdf";
+
+export const PortfolioProfile = PortfolioProfileImage;
+export const SivaTejaResume = Resume;
+
 export const navItems = [
   {
     id: 1,
@@ -17,13 +26,13 @@ export const navItems = [
   },
   {
     id: 3,
-    name: "Projects",
-    icon: <GoProject fontSize="1.3em" />,
+    name: "Skills",
+    icon: <IoDocumentTextOutline fontSize="1.3em" />,
   },
   {
     id: 4,
-    name: "Skills",
-    icon: <IoDocumentTextOutline fontSize="1.3em" />,
+    name: "Projects",
+    icon: <GoProject fontSize="1.3em" />,
   },
   {
     id: 5,

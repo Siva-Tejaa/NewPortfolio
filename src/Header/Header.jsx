@@ -16,7 +16,10 @@ const Header = () => {
     <header className="px-4 py-3 flex items-center justify-between bg-background3 shadow-sm dark:bg-[#0F172A] dark:text-white">
       <h1
         className="text-3xl cursor-pointer"
-        style={{ fontFamily: "'Dancing Script', cursive" }}
+        style={{
+          fontFamily: "'Dancing Script', cursive",
+          filter: "drop-shadow(1px 0px 0px #0e0e0e)",
+        }}
         onClick={() => scrollToTarget("home")}
       >
         {"<Siva Teja/>"}
@@ -30,7 +33,7 @@ const Header = () => {
               className={
                 activeItem === navItem?.name.toLowerCase()
                   ? "cursor-pointer text-primary"
-                  : "cursor-pointer"
+                  : "cursor-pointer hover:text-primary"
               }
             >
               {navItem?.name}
@@ -40,7 +43,7 @@ const Header = () => {
         <div
           onClick={setLightDarkTheme}
           title="Toggle Theme"
-          className="cursor-pointer border-2 p-[3px] rounded-xl"
+          className="cursor-pointer border-2 p-[3px] rounded-xl text-primary"
         >
           {darkMode ? (
             <MdOutlineDarkMode fontSize="1.6em" />
