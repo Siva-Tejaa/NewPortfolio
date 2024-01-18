@@ -55,7 +55,7 @@ const App = () => {
       >
         <Header />
         <MobileNav />
-        <main className="p-2">
+        <main className="bg-background3">
           <Home />
           <Skills />
           <Projects />

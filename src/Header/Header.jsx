@@ -13,7 +13,7 @@ const Header = () => {
     useContext(Context);
 
   return (
-    <header className="px-4 py-3 flex items-center justify-between dark:bg-[#0F172A] dark:text-white">
+    <header className="px-4 py-3 flex items-center justify-between bg-background3 dark:bg-[#0F172A] dark:text-white">
       <h1
         className="text-2xl cursor-pointer laptop:text-3xl"
         style={{ fontFamily: "'Dancing Script', cursive" }}

@@ -2,9 +2,11 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div id="home" className="h-[100vh]">
-      Home
-    </div>
+    <section id="home" className="p-2">
+      <div>
+        <div>Siva Teja</div>
+      </div>
+    </section>
   );
 };
 
