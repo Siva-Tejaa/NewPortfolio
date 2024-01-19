@@ -8,7 +8,7 @@ const MobileNav = () => {
     useContext(Context);
 
   return (
-    <nav className="w-[100%] p-2 rounded-sm flex justify-around gap-4 fixed bottom-0 bg-background3 shadow-[0_-1px_4px_rgba(0,0,0,0.15)] laptop:hidden">
+    <nav className="w-[100%] z-10 p-2 rounded-sm flex justify-around gap-4 fixed bottom-0 bg-background3 shadow-[0_-1px_4px_rgba(0,0,0,0.15)] laptop:hidden">
       {navItems.map((navItem) => (
         <div
           key={navItem?.id}

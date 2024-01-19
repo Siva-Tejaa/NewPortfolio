@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="bg-background3 p-2 flex flex-col-reverse items-center justify-center laptop:flex-row min-h-[90svh]"
+      className="p-2 flex flex-col-reverse items-center justify-center laptop:flex-row min-h-[90svh]"
     >
       <div className="flex flex-col items-center gap-2 max-w-[520px] mb-20 laptop:min-w-[520px] laptop:mb-0 laptop:w-[520px]">
         <h4 className="text-primary font-semibold text-sm laptop:text-base">
