@@ -23,23 +23,23 @@ import Twitter from "../assets/SocialMedia/Twitter.svg";
 import LinkedIn from "../assets/SocialMedia/LinkedIn.svg";
 import WhatsApp from "../assets/SocialMedia/WhatsApp.svg";
 
-// For SVG's https://colored-icons.vercel.app/
+//For Images https://marwin1991.github.io/profile-technology-icons/
 
 //TechStack
-import ReactJs from "../assets/TechStack/ReactJs.svg";
-import JavaScript from "../assets/TechStack/JavaScript.svg";
-import Redux from "../assets/TechStack/Redux.svg";
-import CSS3 from "../assets/TechStack/CSS3.svg";
-import Html5 from "../assets/TechStack/Html5.svg";
-import Bootstrap from "../assets/TechStack/Bootstrap.svg";
-import TailwindCSS from "../assets/TechStack/TailwindCSS.svg";
-import MySql from "../assets/TechStack/MySql.svg";
-import Firebase from "../assets/TechStack/Firebase.svg";
-import Github from "../assets/TechStack/GitHub.svg";
-import NodeJS from "../assets/TechStack/NodeJS.svg";
-import MongoDB from "../assets/TechStack/MongoDB.svg";
-import ExpressJS from "../assets/TechStack/ExpressJS.svg";
-import Git from "../assets/TechStack/Git.svg";
+import ReactJs from "../assets/TechStack/ReactJs.png";
+import JavaScript from "../assets/TechStack/JavaScript.png";
+import Redux from "../assets/TechStack/Redux.png";
+import CSS3 from "../assets/TechStack/CSS3.png";
+import Html5 from "../assets/TechStack/Html5.png";
+import Bootstrap from "../assets/TechStack/Bootstrap.png";
+import TailwindCSS from "../assets/TechStack/TailwindCSS.png";
+import MySql from "../assets/TechStack/MySql.png";
+import Firebase from "../assets/TechStack/Firebase.png";
+import Github from "../assets/TechStack/GitHub.png";
+import NodeJS from "../assets/TechStack/NodeJS.png";
+import MongoDB from "../assets/TechStack/MongoDB.png";
+import ExpressJS from "../assets/TechStack/ExpressJS.png";
+import Git from "../assets/TechStack/Git.png";
 
 //Projects
 
@@ -118,7 +118,7 @@ export const timelineData = [
   },
 ];
 
-export const TechStack = [
+export const techStack = [
   {
     name: "ExpressJS",
     image: ExpressJS,
@@ -195,7 +195,6 @@ export const TechStack = [
     image: Firebase,
     level: "Basic",
   },
-
   {
     name: "Git",
     image: Git,
