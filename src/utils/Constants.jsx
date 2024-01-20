@@ -34,7 +34,7 @@ import Html5 from "../assets/TechStack/Html5.svg";
 import Bootstrap from "../assets/TechStack/Bootstrap.svg";
 import TailwindCSS from "../assets/TechStack/TailwindCSS.svg";
 import MySql from "../assets/TechStack/MySql.svg";
-import Firebase from "../assets/TechStack/firebase.svg";
+import Firebase from "../assets/TechStack/Firebase.svg";
 import Github from "../assets/TechStack/GitHub.svg";
 import NodeJS from "../assets/TechStack/NodeJS.svg";
 import MongoDB from "../assets/TechStack/MongoDB.svg";
