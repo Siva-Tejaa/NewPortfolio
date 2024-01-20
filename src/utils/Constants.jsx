@@ -1,8 +1,6 @@
 //NavIcons
-import { GoHome } from "react-icons/go";
-import { GoPerson } from "react-icons/go";
+import { GoHome, GoPerson, GoProject } from "react-icons/go";
 import { IoDocumentTextOutline } from "react-icons/io5";
-import { GoProject } from "react-icons/go";
 import { BsSend } from "react-icons/bs";
 
 //Portfolio Image
@@ -42,6 +40,22 @@ import ExpressJS from "../assets/TechStack/ExpressJS.png";
 import Git from "../assets/TechStack/Git.png";
 
 //Projects
+import TodoCrud from "../assets/Projects/TodoCrud.png";
+import Greeting from "../assets/Projects/Greeting.png";
+import Covid19Tracker from "../assets/Projects/Covid19Tracker.png";
+import Movies from "../assets/Projects/Movies.png";
+import Weather from "../assets/Projects/Weather.png";
+import Countries from "../assets/Projects/Countries.png";
+import CryptoTracker from "../assets/Projects/CryptoTracker.png";
+import OldPortfolioWebsite from "../assets/Projects/OldPortfolioWebsite.png";
+import PasswordGenerator from "../assets/Projects/PasswordGenerator.png";
+import Youtube from "../assets/Projects/Youtube.png";
+import SBConstructions from "../assets/Projects/SBConstructions.png";
+import iBommaMovies from "../assets/Projects/iBommaMovies.png";
+import SuperKart from "../assets/Projects/SuperKart.png";
+import TheBharatNews from "../assets/Projects/TheBharatNews.png";
+import Wedding from "../assets/Projects/Wedding.png";
+import NewPortfolio from "../assets/Projects/NewPortfolio.png";
 
 export const navItems = [
   {
@@ -199,5 +213,152 @@ export const techStack = [
     name: "Git",
     image: Git,
     level: "Intermediate",
+  },
+];
+
+export const projectsData = [
+  {
+    id: 1,
+    image: TodoCrud,
+    title: "Todo/Crud",
+    techStack: "react",
+    demo: "https://react-todo-crud-app.stackblitz.io",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 2,
+    image: Greeting,
+    title: "Greeting",
+    techStack: "react",
+    demo: "https://greetings-app.stackblitz.io",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 3,
+    image: Covid19Tracker,
+    title: "Covid19 Tracker India",
+    techStack: "react",
+    demo: "https://covid19-india.stackblitz.io",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 4,
+    image: Movies,
+    title: "Movies Application",
+    techStack: "react",
+    demo: "https://movies-application.stackblitz.io",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 5,
+    image: Weather,
+    title: "Weather",
+    techStack: "react",
+    demo: "https://city-weather.stackblitz.io",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 6,
+    image: Countries,
+    title: "Countries",
+    techStack: "react",
+    demo: "https://allcountries.stackblitz.io",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 7,
+    image: CryptoTracker,
+    title: "CryptoTracker",
+    techStack: "react",
+    demo: "https://crypto-tracker.stackblitz.io",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 8,
+    image: OldPortfolioWebsite,
+    title: "Old Portfolio Website",
+    techStack: "react",
+    demo: "https://sivateja.stackblitz.io",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 9,
+    image: PasswordGenerator,
+    title: "Password Generator",
+    techStack: "react",
+    demo: "https://react-password-generator.stackblitz.io",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 10,
+    image: Youtube,
+    title: "Simple Youtube App",
+    techStack: "react",
+    demo: "https://simple-youtube-app.vercel.app/",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 11,
+    image: SBConstructions,
+    title: "Construction Website",
+    techStack: "react",
+    demo: "https://sbconstructions.vercel.app/",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 12,
+    image: iBommaMovies,
+    title: "iBomma Movies",
+    techStack: "react",
+    demo: "https://ibomma-movies-app.vercel.app/",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 13,
+    image: SuperKart,
+    title: "SuperKart",
+    techStack: "react",
+    demo: "https://super-kart.vercel.app/",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 14,
+    image: TheBharatNews,
+    title: "The Bharat News",
+    techStack: "react",
+    demo: "https://thebharatnews.vercel.app/",
+    gitRepo: "",
+    status: "Completed",
+  },
+  {
+    id: 15,
+    image: Wedding,
+    title: "Indian Wedding",
+    techStack: "react",
+    demo: "https://indian-wedding.vercel.app/",
+    gitRepo: "",
+    status: "In Progress",
+  },
+  {
+    id: 16,
+    image: NewPortfolio,
+    title: "Portfolio",
+    techStack: "react",
+    demo: "https://sivatejanew.vercel.app/",
+    gitRepo: "",
+    status: "In Progress",
   },
 ];
