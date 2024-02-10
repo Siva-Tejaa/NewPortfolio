@@ -224,7 +224,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://react-todo-crud-app.stackblitz.io",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 2,
@@ -233,7 +233,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://greetings-app.stackblitz.io",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 3,
@@ -242,7 +242,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://covid19-india.stackblitz.io",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 4,
@@ -251,7 +251,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://movies-application.stackblitz.io",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 5,
@@ -260,7 +260,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://city-weather.stackblitz.io",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 6,
@@ -269,7 +269,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://allcountries.stackblitz.io",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 7,
@@ -278,7 +278,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://crypto-tracker.stackblitz.io",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 8,
@@ -287,7 +287,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://sivateja.stackblitz.io",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 9,
@@ -296,7 +296,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://react-password-generator.stackblitz.io",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 10,
@@ -305,7 +305,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://simple-youtube-app.vercel.app/",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 11,
@@ -314,7 +314,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://sbconstructions.vercel.app/",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 12,
@@ -323,7 +323,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://ibomma-movies-app.vercel.app/",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 13,
@@ -332,7 +332,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://super-kart.vercel.app/",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 14,
@@ -341,7 +341,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://thebharatnews.vercel.app/",
     gitRepo: "",
-    status: "Completed",
+    status: "Complete",
   },
   {
     id: 15,

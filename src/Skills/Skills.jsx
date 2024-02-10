@@ -4,7 +4,7 @@ import { techStack } from "../utils/Constants";
 
 const Skills = () => {
   return (
-    <div
+    <section
       id="skills"
       className="p-2 flex flex-col items-center gap-8 min-h-[100vh]"
     >
@@ -25,7 +25,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

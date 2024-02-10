@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="p-2 flex flex-col items-center justify-center gap-8 h-[100vh]"
+      className="p-2 flex flex-col items-center justify-center gap-8"
     >
       <h1 className="text-3xl font-semibold">About</h1>
       <Chrono
