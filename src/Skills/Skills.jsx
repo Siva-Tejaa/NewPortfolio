@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="p-2 flex flex-col items-center gap-8 min-h-[100vh]"
+      className="p-2 flex flex-col items-center gap-8 mt-5 laptop:mb-28"
     >
       <h1 className="text-3xl font-semibold">Skills</h1>
       <div className="grid grid-cols-[repeat(2,1fr)] gap-4 tablet:gap-8 laptop:grid laptop:grid-cols-[repeat(3,1fr)] laptop:gap-8 desktop:grid desktop:grid-cols-[repeat(4,1fr)] desktop:gap-8">

@@ -136,13 +136,13 @@ export const techStack = [
   {
     name: "ExpressJS",
     image: ExpressJS,
-    level: "Basic",
+    level: "Intermediate",
   },
 
   {
     name: "NodeJS",
     image: NodeJS,
-    level: "Basic",
+    level: "Intermediate",
   },
 
   {
@@ -286,7 +286,7 @@ export const projectsData = [
     title: "Old Portfolio Website",
     techStack: "react",
     demo: "https://sivateja.stackblitz.io",
-    gitRepo: "",
+    gitRepo: "https://github.com/Siva-Tejaa/Portfolio",
     status: "Complete",
   },
   {
@@ -313,7 +313,7 @@ export const projectsData = [
     title: "Construction Website",
     techStack: "react",
     demo: "https://sbconstructions.vercel.app/",
-    gitRepo: "",
+    gitRepo: "https://github.com/Siva-Tejaa/sb-constructions",
     status: "Complete",
   },
   {
@@ -322,7 +322,7 @@ export const projectsData = [
     title: "iBomma Movies",
     techStack: "react",
     demo: "https://ibomma-movies-app.vercel.app/",
-    gitRepo: "",
+    gitRepo: "https://github.com/Siva-Tejaa/movies-app",
     status: "Complete",
   },
   {
@@ -331,7 +331,7 @@ export const projectsData = [
     title: "SuperKart",
     techStack: "react",
     demo: "https://super-kart.vercel.app/",
-    gitRepo: "",
+    gitRepo: "https://github.com/Siva-Tejaa/SuperKart",
     status: "Complete",
   },
   {
@@ -340,7 +340,7 @@ export const projectsData = [
     title: "The Bharat News",
     techStack: "react",
     demo: "https://thebharatnews.vercel.app/",
-    gitRepo: "",
+    gitRepo: "https://github.com/Siva-Tejaa/BharatNews",
     status: "Complete",
   },
   {
@@ -349,7 +349,7 @@ export const projectsData = [
     title: "Indian Wedding",
     techStack: "react",
     demo: "https://indian-wedding.vercel.app/",
-    gitRepo: "",
+    gitRepo: "https://github.com/Siva-Tejaa/marriage",
     status: "In Progress",
   },
   {
@@ -358,7 +358,7 @@ export const projectsData = [
     title: "Portfolio",
     techStack: "react",
     demo: "https://sivatejanew.vercel.app/",
-    gitRepo: "",
+    gitRepo: "https://github.com/Siva-Tejaa/NewPortfolio",
     status: "In Progress",
   },
 ];
