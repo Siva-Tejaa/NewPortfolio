@@ -14,13 +14,13 @@ const About = () => {
         {aboutMe.map((about) => (
           <div
             key={about.title}
-            className="bg-white flex flex-col items-center justify-center border-2 px-1 py-2 rounded-md w-[7rem] laptop:w-32 p-2"
+            className="bg-white flex flex-col items-center justify-center gap-1 border-2 px-1 py-2 rounded-md w-[7.3rem] laptop:w-32 p-2"
           >
             {about.icon}
             <p className="text-sm tablet:text-sm laptop:text-base">
               {about.title}
             </p>
-            <p className="text-[11px] text-gray-400 laptop:text-xs">
+            <p className="text-[11px] text-gray-400 line-clamp-1 laptop:text-xs">
               {about.subtitle}
             </p>
           </div>

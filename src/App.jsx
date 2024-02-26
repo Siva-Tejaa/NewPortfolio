@@ -37,7 +37,8 @@ const App = () => {
   //Console Content
   const consoleStyles = `
     font-family: Dancing Script, cursive;
-    padding: 6px;
+    padding-bottom: 6px;
+    padding-top:1px;
     background-color:#474BFF;
     color:#FFFF;
     border-radius:4px;
@@ -49,7 +50,7 @@ const App = () => {
 
     //Console Content
     console.clear();
-    console.log("%c <𝕾𝖎𝖛𝖆 𝕿𝖊𝖏𝖆/>", consoleStyles);
+    console.log("%c <𝕾𝖎𝖛𝖆 𝕿𝖊𝖏𝖆/> ", consoleStyles);
     console.log("Welcome to my Portfolio Website. Happy Debugging! :)");
   }, []);
 

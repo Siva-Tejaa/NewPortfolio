@@ -41,13 +41,13 @@ const Home = () => {
           />
         </div>
         <h5 className="text-justify text-sm laptop:text-base">
-          A passionate front-end developer with 2.3+ years of experience in
+          A passionate front-end developer with 2.5+ years of experience in
           designing and developing highly responsive websites with elegant and
           efficient code.
         </h5>
         <div className="flex items-center justify-around gap-4 text-sm laptop:text-base">
           <a
-            className="p-2 flex items-center gap-1 bg-primary rounded-md text-white cursor-pointer"
+            className="p-[0.6rem] flex items-center gap-1 bg-primary rounded-md text-white cursor-pointer hover:bg-[#6466ff]"
             href={SivaTejaResume}
             target="_blank"
           >
@@ -55,7 +55,7 @@ const Home = () => {
             <MdOutlineFileDownload fontSize="1.3em" />
           </a>
           <button
-            className="p-2 flex items-center gap-1 border-2 rounded-md text-black"
+            className="p-[0.6rem] flex items-center gap-1 border-2 rounded-md text-black hover:bg-gray-100"
             onClick={() => scrollToTarget("contact")}
           >
             Contact Me
