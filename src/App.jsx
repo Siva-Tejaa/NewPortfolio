@@ -32,6 +32,13 @@ const App = () => {
   const setLightDarkTheme = () => {
     setDarkMode(!darkMode);
     localStorage.setItem("darkMode", !darkMode);
+
+    //For Notification
+    // Notification.requestPermission().then((permission) => {
+    //   if (permission === "granted") {
+    //     new Notification("Theme Changed");
+    //   }
+    // });
   };
 
   //Console Content
