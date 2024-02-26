@@ -3,6 +3,11 @@ import { GoHome, GoPerson, GoProject } from "react-icons/go";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { BsSend } from "react-icons/bs";
 
+//AboutMe Icons
+import { MdOutlineWorkspacePremium } from "react-icons/md";
+import { CgWorkAlt } from "react-icons/cg";
+import { BiSupport } from "react-icons/bi";
+
 //Portfolio Image
 import PortfolioProfileImage from "../assets/PortfolioProfile.png";
 
@@ -88,6 +93,24 @@ export const navItems = [
 export const PortfolioProfile = PortfolioProfileImage;
 
 export const SivaTejaResume = Resume;
+
+export const aboutMe = [
+  {
+    icon: <MdOutlineWorkspacePremium fontSize="1.3em" />,
+    title: "Experience",
+    subtitle: "2+ Years Working",
+  },
+  {
+    icon: <CgWorkAlt fontSize="1.3em" />,
+    title: "Completed",
+    subtitle: "15+ Projects",
+  },
+  {
+    icon: <BiSupport fontSize="1.3em" />,
+    title: "Support",
+    subtitle: "Online 24/7",
+  },
+];
 
 export const timelineData = [
   {
@@ -223,7 +246,8 @@ export const projectsData = [
     title: "Todo/Crud",
     techStack: "react",
     demo: "https://react-todo-crud-app.stackblitz.io",
-    gitRepo: "",
+    gitRepo:
+      "https://stackblitz.com/edit/react-todo-crud-app?file=src%2FApp.js",
     status: "Complete",
   },
   {
@@ -232,7 +256,7 @@ export const projectsData = [
     title: "Greeting",
     techStack: "react",
     demo: "https://greetings-app.stackblitz.io",
-    gitRepo: "",
+    gitRepo: "https://stackblitz.com/edit/greetings-app?file=src%2FApp.js",
     status: "Complete",
   },
   {
@@ -241,7 +265,7 @@ export const projectsData = [
     title: "Covid19 Tracker India",
     techStack: "react",
     demo: "https://covid19-india.stackblitz.io",
-    gitRepo: "",
+    gitRepo: "https://stackblitz.com/edit/covid19-india?file=src%2FApp.js",
     status: "Complete",
   },
   {
@@ -250,7 +274,7 @@ export const projectsData = [
     title: "Movies Application",
     techStack: "react",
     demo: "https://movies-application.stackblitz.io",
-    gitRepo: "",
+    gitRepo: "https://stackblitz.com/edit/movies-application?file=src%2FApp.js",
     status: "Complete",
   },
   {
@@ -259,7 +283,7 @@ export const projectsData = [
     title: "Weather",
     techStack: "react",
     demo: "https://city-weather.stackblitz.io",
-    gitRepo: "",
+    gitRepo: "https://stackblitz.com/edit/city-weather?file=src%2FApp.js",
     status: "Complete",
   },
   {
@@ -268,7 +292,7 @@ export const projectsData = [
     title: "Countries",
     techStack: "react",
     demo: "https://allcountries.stackblitz.io",
-    gitRepo: "",
+    gitRepo: "https://stackblitz.com/edit/allcountries?file=src%2FApp.js",
     status: "Complete",
   },
   {
@@ -277,7 +301,7 @@ export const projectsData = [
     title: "CryptoTracker",
     techStack: "react",
     demo: "https://crypto-tracker.stackblitz.io",
-    gitRepo: "",
+    gitRepo: "https://stackblitz.com/edit/crypto-tracker?file=src%2FApp.js",
     status: "Complete",
   },
   {
@@ -295,7 +319,8 @@ export const projectsData = [
     title: "Password Generator",
     techStack: "react",
     demo: "https://react-password-generator.stackblitz.io",
-    gitRepo: "",
+    gitRepo:
+      "https://stackblitz.com/edit/react-password-generator?file=src%2FApp.js",
     status: "Complete",
   },
   {
@@ -304,7 +329,7 @@ export const projectsData = [
     title: "Simple Youtube App",
     techStack: "react",
     demo: "https://simple-youtube-app.vercel.app/",
-    gitRepo: "",
+    gitRepo: "https://github.com/Siva-Tejaa/Youtube",
     status: "Complete",
   },
   {

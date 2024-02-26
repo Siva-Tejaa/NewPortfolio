@@ -1,7 +1,7 @@
 import React from "react";
 import { Chrono } from "react-chrono";
 
-import { timelineData } from "../utils/Constants";
+import { timelineData, aboutMe } from "../utils/Constants";
 
 const About = () => {
   return (
@@ -10,6 +10,22 @@ const About = () => {
       className="p-2 flex flex-col items-center justify-center gap-8 mt-5"
     >
       <h1 className="text-3xl font-semibold">About</h1>
+      <div className="flex items-center justify-center gap-2">
+        {aboutMe.map((about) => (
+          <div
+            key={about.title}
+            className="bg-white flex flex-col items-center justify-center border-2 px-1 py-2 rounded-md w-[7rem] laptop:w-32 p-2"
+          >
+            {about.icon}
+            <p className="text-sm tablet:text-sm laptop:text-base">
+              {about.title}
+            </p>
+            <p className="text-[11px] text-gray-400 laptop:text-xs">
+              {about.subtitle}
+            </p>
+          </div>
+        ))}
+      </div>
       <Chrono
         items={timelineData}
         mode="VERTICAL_ALTERNATING"
