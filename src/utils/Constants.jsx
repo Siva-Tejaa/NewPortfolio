@@ -19,12 +19,16 @@ import SVArtsCollege from "../assets/Timeline/SV_Arts_College_Tirupati.png";
 import NarayanaEngineeringCollege from "../assets/Timeline/Narayana_Engineering_College_Nellore.png";
 import Xoriant from "../assets/Timeline/Xoriant.jpg";
 
-//SocialMedia
-import Facebook from "../assets/SocialMedia/Facebook.svg";
-import Instagram from "../assets/SocialMedia/Instagram.svg";
-import Twitter from "../assets/SocialMedia/Twitter.svg";
-import LinkedIn from "../assets/SocialMedia/LinkedIn.svg";
-import WhatsApp from "../assets/SocialMedia/WhatsApp.svg";
+//Contact Page || SocialMedia
+import { HiOutlineMail } from "react-icons/hi";
+import { PiPhoneCall, PiShareNetworkBold } from "react-icons/pi";
+
+import Facebook from "../assets/SocialMedia/Facebook.png";
+import Instagram from "../assets/SocialMedia/Instagram.png";
+import Twitter from "../assets/SocialMedia/Twitter.png";
+import LinkedIn from "../assets/SocialMedia/LinkedIn.png";
+import Whatsapp from "../assets/SocialMedia/Whatsapp.png";
+import GithubIcon from "../assets/SocialMedia/Github.png";
 
 //For Images https://marwin1991.github.io/profile-technology-icons/
 
@@ -385,5 +389,65 @@ export const projectsData = [
     demo: "https://sivatejanew.vercel.app/",
     gitRepo: "https://github.com/Siva-Tejaa/NewPortfolio",
     status: "In Progress",
+  },
+];
+
+//Contact Page Icons and Social Media Icons
+
+export const contactData = [
+  {
+    id: 1,
+    icon: <HiOutlineMail fontSize="1.6em" />,
+    name: "Email Me",
+    content: "asivateja1999@gmail.com",
+    link: "mailto:asivateja1999@gmail.com",
+  },
+  {
+    id: 2,
+    icon: <PiPhoneCall fontSize="1.6em" />,
+    name: "Call Me",
+    content: "+91 7981203040",
+    link: "https://api.whatsapp.com/send?phone=7981203040&text=Hello!",
+  },
+];
+
+export const shareIcon = <PiShareNetworkBold fontSize="1.6em" />;
+
+export const socialMedia = [
+  {
+    id: 1,
+    name: "Facebook",
+    icon: Facebook,
+    link: "https://www.facebook.com/Sivaa.Teja",
+  },
+  {
+    id: 2,
+    name: "Whatsapp",
+    icon: Whatsapp,
+    link: "https://api.whatsapp.com/send?phone=7981203040&text=Hello!",
+  },
+  {
+    id: 3,
+    name: "Instagram",
+    icon: Instagram,
+    link: "https://www.instagram.com/s.i.v.a_t.e.j.a",
+  },
+  {
+    id: 4,
+    name: "Twitter (X)",
+    icon: Twitter,
+    link: "https://twitter.com/Siva_Tejaa",
+  },
+  {
+    id: 5,
+    name: "LinkedIn",
+    icon: LinkedIn,
+    link: "https://www.linkedin.com/in/siva-tejaa",
+  },
+  {
+    id: 6,
+    name: "Github",
+    icon: GithubIcon,
+    link: "https://github.com/Siva-Tejaa",
   },
 ];
