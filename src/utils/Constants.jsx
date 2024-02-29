@@ -20,8 +20,9 @@ import NarayanaEngineeringCollege from "../assets/Timeline/Narayana_Engineering_
 import Xoriant from "../assets/Timeline/Xoriant.jpg";
 
 //Contact Page || SocialMedia
-import { HiOutlineMail } from "react-icons/hi";
-import { PiPhoneCall, PiShareNetworkBold } from "react-icons/pi";
+import { GoMail } from "react-icons/go";
+import { PiPhoneCall, PiShareNetwork } from "react-icons/pi";
+import { SlLocationPin } from "react-icons/sl";
 
 import Facebook from "../assets/SocialMedia/Facebook.png";
 import Instagram from "../assets/SocialMedia/Instagram.png";
@@ -397,21 +398,28 @@ export const projectsData = [
 export const contactData = [
   {
     id: 1,
-    icon: <HiOutlineMail fontSize="1.6em" />,
+    icon: <SlLocationPin fontSize="1.6em" />,
+    name: "Location",
+    content: "Andhra Pradesh, India",
+    link: "https://maps.app.goo.gl/tn44j4znZzgJLufG8",
+  },
+  {
+    id: 2,
+    icon: <GoMail fontSize="1.6em" />,
     name: "Email Me",
     content: "asivateja1999@gmail.com",
     link: "mailto:asivateja1999@gmail.com",
   },
   {
-    id: 2,
+    id: 3,
     icon: <PiPhoneCall fontSize="1.6em" />,
     name: "Call Me",
     content: "+91 7981203040",
-    link: "https://api.whatsapp.com/send?phone=7981203040&text=Hello!",
+    link: "tel:+917981203040",
   },
 ];
 
-export const shareIcon = <PiShareNetworkBold fontSize="1.6em" />;
+export const shareIcon = <PiShareNetwork fontSize="1.6em" />;
 
 export const socialMedia = [
   {

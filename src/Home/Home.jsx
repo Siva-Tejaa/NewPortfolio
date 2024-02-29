@@ -43,7 +43,9 @@ const Home = () => {
         <h5 className="text-justify text-sm laptop:text-base">
           A passionate front-end developer with 2.5+ years of experience in
           designing and developing highly responsive websites with elegant and
-          efficient code.
+          efficient code. Currently, I am learning MERN development and
+          improving my skills in building responsive full-stack web
+          applications.
         </h5>
         <div className="flex items-center justify-around gap-4 text-sm laptop:text-base">
           <a

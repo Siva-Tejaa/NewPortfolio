@@ -56,9 +56,9 @@ const App = () => {
     getLightDarkTheme();
 
     //Console Content
-    console.clear();
-    console.log("%c <𝕾𝖎𝖛𝖆 𝕿𝖊𝖏𝖆/> ", consoleStyles);
-    console.log("Welcome to my Portfolio Website. Happy Debugging! :)");
+    // console.clear();
+    // console.log("%c <𝕾𝖎𝖛𝖆 𝕿𝖊𝖏𝖆/> ", consoleStyles);
+    // console.log("Welcome to my Portfolio Website. Happy Debugging! :)");
   }, []);
 
   return (
