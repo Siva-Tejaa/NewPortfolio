@@ -15,6 +15,7 @@ import About from "./About/About";
 const App = () => {
   const [activeItem, setActiveItem] = useState("home");
   const [darkMode, setDarkMode] = useState(false);
+  const [chronoRender, setChronoRender] = useState(0);
 
   //Scroll to Specific Section in Page
   const scrollToTarget = (targetID) => {
@@ -31,6 +32,7 @@ const App = () => {
   //Light & Dark Mode Functionality
   const setLightDarkTheme = () => {
     setDarkMode(!darkMode);
+    setChronoRender(chronoRender + 1);
     localStorage.setItem("darkMode", !darkMode);
 
     //For Notification
@@ -56,9 +58,9 @@ const App = () => {
     getLightDarkTheme();
 
     //Console Content
-    // console.clear();
-    // console.log("%c <𝕾𝖎𝖛𝖆 𝕿𝖊𝖏𝖆/> ", consoleStyles);
-    // console.log("Welcome to my Portfolio Website. Happy Debugging! :)");
+    console.clear();
+    console.log("%c <𝕾𝖎𝖛𝖆 𝕿𝖊𝖏𝖆/> ", consoleStyles);
+    console.log("Welcome to my Portfolio Website. Happy Debugging! :)");
   }, []);
 
   return (
@@ -70,11 +72,12 @@ const App = () => {
           darkMode,
           scrollToTarget,
           setLightDarkTheme,
+          chronoRender,
         }}
       >
         <Header />
         <MobileNav />
-        <main className="bg-background3">
+        <main className="bg-background3 dark:bg-[#252424]">
           <Home />
           <About />
           <Skills />

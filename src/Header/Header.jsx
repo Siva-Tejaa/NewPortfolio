@@ -13,9 +13,9 @@ const Header = () => {
     useContext(Context);
 
   return (
-    <header className="z-10 px-4 py-3 flex items-center justify-between bg-background3 shadow-md dark:bg-[#0F172A] dark:text-white">
+    <header className="z-10 px-4 py-3 flex items-center justify-between bg-background3 shadow-md dark:bg-darkblack dark:text-white">
       <h1
-        className="text-3xl text-primary cursor-pointer"
+        className="text-3xl text-primary cursor-pointer dark:text-darkprimary"
         style={{
           fontFamily: "'Dancing Script', cursive",
           filter: "drop-shadow(1px 0px 0px #474BFF)",
@@ -32,8 +32,8 @@ const Header = () => {
               onClick={() => scrollToTarget(navItem?.name.toLowerCase())}
               className={
                 activeItem === navItem?.name.toLowerCase()
-                  ? "cursor-pointer text-primary"
-                  : "cursor-pointer hover:text-primary"
+                  ? "cursor-pointer text-primary dark:text-darkprimary"
+                  : "cursor-pointer hover:text-primary dark:hover:text-darkprimary"
               }
             >
               {navItem?.name}
@@ -43,7 +43,7 @@ const Header = () => {
         <div
           onClick={setLightDarkTheme}
           title="Toggle Theme"
-          className="cursor-pointer border-2 p-[3px] rounded-xl text-primary"
+          className="cursor-pointer border-2 p-[3px] rounded-xl text-primary dark:text-darkprimary"
         >
           {darkMode ? (
             <MdOutlineDarkMode fontSize="1.6em" />

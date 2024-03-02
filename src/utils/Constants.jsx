@@ -389,7 +389,7 @@ export const projectsData = [
     techStack: "react",
     demo: "https://sivatejanew.vercel.app/",
     gitRepo: "https://github.com/Siva-Tejaa/NewPortfolio",
-    status: "In Progress",
+    status: "Complete",
   },
 ];
 

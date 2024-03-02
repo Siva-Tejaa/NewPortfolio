@@ -18,18 +18,20 @@ const Home = () => {
       className="p-2 flex flex-col-reverse items-center justify-center laptop:flex-row mb-12 pt-12"
     >
       <div className="flex flex-col items-center gap-2 max-w-[520px] mb-20 laptop:min-w-[520px] laptop:mb-0 laptop:w-[520px]">
-        <h4 className="text-primary font-semibold text-sm laptop:text-base">
+        <h4 className="text-primary font-semibold text-sm laptop:text-base dark:text-darkprimary">
           Hello, I'm
         </h4>
         <h2
-          className=" font-bold text-4xl laptop:text-5xl"
+          className=" font-bold text-4xl laptop:text-5xl dark:text-darkheader"
           style={{ fontFamily: "'Montserrat', sans-serif" }}
         >
           Siva Teja
-          <span className="blinking-cursor text-primary font-light">|</span>
+          <span className="blinking-cursor text-primary font-light dark:text-darkprimary">
+            |
+          </span>
         </h2>
 
-        <div>
+        <div className="dark:text-darkheader">
           <Typewriter
             words={[
               "Front-End Developer",
@@ -40,7 +42,7 @@ const Home = () => {
             cursor
           />
         </div>
-        <h5 className="text-justify text-sm laptop:text-base">
+        <h5 className="text-justify text-sm laptop:text-base dark:text-darknormal">
           A passionate front-end developer with 2.5+ years of experience in
           designing and developing highly responsive websites with elegant and
           efficient code. Currently, I am learning MERN development and
@@ -49,7 +51,7 @@ const Home = () => {
         </h5>
         <div className="flex items-center justify-around gap-4 text-sm laptop:text-base">
           <a
-            className="p-[0.6rem] flex items-center gap-1 bg-primary rounded-md text-white cursor-pointer hover:bg-[#6466ff]"
+            className="p-[0.6rem] flex items-center gap-1 bg-primary rounded-md text-white cursor-pointer hover:bg-[#6466ff] dark:bg-[#5F63ED]"
             href={SivaTejaResume}
             target="_blank"
           >
@@ -57,7 +59,7 @@ const Home = () => {
             <MdOutlineFileDownload fontSize="1.3em" />
           </a>
           <button
-            className="p-[0.6rem] flex items-center gap-1 border-2 rounded-md text-black hover:bg-gray-100"
+            className="p-[0.6rem] flex items-center gap-1 border-2 rounded-md text-black hover:bg-gray-100 dark:text-darknormal dark:hover:bg-[#3D3D3E]"
             onClick={() => scrollToTarget("contact")}
           >
             Contact Me
