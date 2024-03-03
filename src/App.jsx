@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 
 import Header from "./Header/Header";
@@ -13,6 +13,8 @@ import MobileNav from "./Header/MobileNav";
 import About from "./About/About";
 
 const App = () => {
+  const dialogModal = useRef(null);
+
   const [activeItem, setActiveItem] = useState("home");
   const [darkMode, setDarkMode] = useState(false);
   const [chronoRender, setChronoRender] = useState(0);
@@ -41,6 +43,21 @@ const App = () => {
     //     new Notification("Theme Changed");
     //   }
     // });
+  };
+
+  //Contact Page Dialog Functions
+  const closeDialog = (e) => {
+    e.preventDefault();
+    if (dialogModal.current) {
+      dialogModal.current.close();
+    }
+  };
+
+  const openDialog = (e) => {
+    e.preventDefault();
+    if (dialogModal.current) {
+      dialogModal.current.showModal();
+    }
   };
 
   //Console Content
@@ -73,6 +90,9 @@ const App = () => {
           scrollToTarget,
           setLightDarkTheme,
           chronoRender,
+          dialogModal,
+          openDialog,
+          closeDialog,
         }}
       >
         <Header />

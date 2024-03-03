@@ -28,7 +28,7 @@ const SocialProfiles = () => {
       ))}
 
       <div className="flex items-center gap-4 bg-background2 rounded-md p-4 min-w-[22rem] tablet:w-[26rem] laptop:w-[22rem] desktop:w-[26rem] dark:bg-darkblack">
-        <div className="p-4 rounded-full bg-slate-300 text-primary dark:bg-[#454C5A] dark:text-darkprimary">
+        <div className="p-4 rounded-full bg-[#D4E1F1] text-primary dark:bg-[#454C5A] dark:text-darkprimary">
           {shareIcon}
         </div>
         <div className="flex flex-col gap-[0.4rem]">
