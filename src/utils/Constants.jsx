@@ -48,6 +48,9 @@ import NodeJS from "../assets/TechStack/NodeJS.png";
 import MongoDB from "../assets/TechStack/MongoDB.png";
 import ExpressJS from "../assets/TechStack/ExpressJS.png";
 import Git from "../assets/TechStack/Git.png";
+// import Jira from "../assets/TechStack/Jira.png";
+import Postman from "../assets/TechStack/Postman.png";
+import CoreJava from "../assets/TechStack/Java.png";
 
 //Projects
 import TodoCrud from "../assets/Projects/TodoCrud.png";
@@ -227,6 +230,11 @@ export const techStack = [
     level: "Basic",
   },
   {
+    name: "Core Java",
+    image: CoreJava,
+    level: "Basic",
+  },
+  {
     name: "Git Hub",
     image: Github,
     level: "Intermediate",
@@ -242,6 +250,16 @@ export const techStack = [
     image: Git,
     level: "Intermediate",
   },
+  {
+    name: "Postman",
+    image: Postman,
+    level: "Intermediate",
+  },
+  // {
+  //   name: "Jira",
+  //   image: Jira,
+  //   level: "Advanced",
+  // },
 ];
 
 export const projectsData = [
