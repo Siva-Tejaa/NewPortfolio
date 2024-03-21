@@ -69,6 +69,7 @@ import SuperKart from "../assets/Projects/SuperKart.png";
 import TheBharatNews from "../assets/Projects/TheBharatNews.png";
 import Wedding from "../assets/Projects/Wedding.png";
 import NewPortfolio from "../assets/Projects/NewPortfolio.png";
+import JobGenie from "../assets/Projects/JobGenie.png";
 
 export const navItems = [
   {
@@ -408,6 +409,15 @@ export const projectsData = [
     demo: "https://sivateja.vercel.app/",
     gitRepo: "https://github.com/Siva-Tejaa/NewPortfolio",
     status: "Complete",
+  },
+  {
+    id: 17,
+    image: JobGenie,
+    title: "Job Genie",
+    techStack: "react, node, express, mongodb MERN",
+    demo: "https://jobgeniee.vercel.app/",
+    gitRepo: "https://github.com/Siva-Tejaa/nodejsjobportal",
+    status: "In Progress",
   },
 ];
 
