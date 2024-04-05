@@ -44,7 +44,7 @@ const Home = () => {
           />
         </div>
         <h5 className="text-justify text-sm laptop:text-base dark:text-darknormal">
-          A passionate front-end developer with 2.5+ years of experience in
+          A passionate front-end developer with 2.6+ years of experience in
           designing and developing highly responsive websites with elegant and
           efficient code. Currently, I am learning MERN development and
           improving my skills in building responsive full-stack web
@@ -52,7 +52,7 @@ const Home = () => {
         </h5>
         <div className="flex items-center justify-around gap-4 text-sm laptop:text-base">
           <a
-            className="p-[0.6rem] flex items-center gap-1 bg-primary rounded-md text-white cursor-pointer hover:bg-[#6466ff] dark:bg-[#5F63ED]"
+            className="p-[0.6rem] flex items-center gap-1 border-2 border-primary bg-primary rounded-md text-white cursor-pointer hover:bg-[#6466ff] hover:border-[#6466ff] dark:bg-[#5F63ED] dark:border-[#6466ff]"
             href={SivaTejaResume}
             target="_blank"
           >

@@ -38,11 +38,11 @@ const App = () => {
     localStorage.setItem("darkMode", !darkMode);
 
     //For Notification
-    // Notification.requestPermission().then((permission) => {
-    //   if (permission === "granted") {
-    //     new Notification("Theme Changed");
-    //   }
-    // });
+    Notification.requestPermission().then((permission) => {
+      if (permission === "granted") {
+        new Notification("Theme Changed");
+      }
+    });
   };
 
   //Contact Page Dialog Functions
