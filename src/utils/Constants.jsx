@@ -446,7 +446,7 @@ export const contactData = [
     icon: <GoMail fontSize="1.6em" />,
     name: "Email Me",
     content: "asivateja1999@gmail.com",
-    link: "mailto:asivateja1999@gmail.com",
+    link: "mailto:asivateja1999@gmail.com?subject=Mail From Portfolio Website ",
   },
   {
     id: 3,
