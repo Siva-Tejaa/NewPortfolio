@@ -3,14 +3,14 @@ import "./App.css";
 
 import Header from "./Header/Header";
 import Home from "./Home/Home";
+import About from "./About/About";
 import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import Footer from "./Footer/Footer";
 import Contact from "./Contact/Contact";
+import MobileNav from "./Header/MobileNav";
 
 import { Context } from "./utils/Context";
-import MobileNav from "./Header/MobileNav";
-import About from "./About/About";
 
 const App = () => {
   const dialogModal = useRef(null);

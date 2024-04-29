@@ -108,12 +108,12 @@ export const aboutMe = [
   {
     icon: <MdOutlineWorkspacePremium fontSize="1.3em" />,
     title: "Experience",
-    subtitle: "2.6+ Years Working",
+    subtitle: "2.7+ Years Working",
   },
   {
     icon: <CgWorkAlt fontSize="1.3em" />,
     title: "Completed",
-    subtitle: "15+ Projects",
+    subtitle: "18+ Projects",
   },
   {
     icon: <BiSupport fontSize="1.3em" />,
@@ -193,7 +193,7 @@ export const techStack = [
   {
     name: "Redux",
     image: Redux,
-    level: "Basic",
+    level: "Intermediate",
   },
 
   {
@@ -209,15 +209,15 @@ export const techStack = [
   },
 
   {
-    name: "Bootstrap",
-    image: Bootstrap,
-    level: "Basic",
-  },
-
-  {
     name: "Tailwind CSS",
     image: TailwindCSS,
     level: "Intermediate",
+  },
+
+  {
+    name: "Bootstrap",
+    image: Bootstrap,
+    level: "Basic",
   },
 
   {
