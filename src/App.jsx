@@ -19,6 +19,14 @@ const App = () => {
   const [darkMode, setDarkMode] = useState(false);
   const [chronoRender, setChronoRender] = useState(0);
 
+  //Tab Title Changer Functions
+  const handleBlurTitle = () => {
+    document.title = "Come Back :(";
+  };
+  const handleFocusTitle = () => {
+    document.title = "Siva Teja - Software Engineer";
+  };
+
   //Scroll to Specific Section in Page
   const scrollToTarget = (targetID) => {
     document.getElementById(targetID).scrollIntoView({ block: "start" });
@@ -78,6 +86,16 @@ const App = () => {
     console.clear();
     console.log("%c <𝕾𝖎𝖛𝖆 𝕿𝖊𝖏𝖆/> ", consoleStyles);
     console.log("Welcome to my Portfolio Website. Happy Debugging! :)");
+
+    // Adding Title Changing event listeners
+    window.addEventListener("blur", handleBlurTitle);
+    window.addEventListener("focus", handleFocusTitle);
+
+    // Clean up Title Changing event listeners on component unmount
+    return () => {
+      window.removeEventListener("blur", handleBlurTitle);
+      window.removeEventListener("focus", handleFocusTitle);
+    };
   }, []);
 
   return (

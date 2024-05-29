@@ -108,7 +108,7 @@ export const aboutMe = [
   {
     icon: <MdOutlineWorkspacePremium fontSize="1.3em" />,
     title: "Experience",
-    subtitle: "2.7+ Years Working",
+    subtitle: "2.8+ Years Working",
   },
   {
     icon: <CgWorkAlt fontSize="1.3em" />,
@@ -167,18 +167,6 @@ export const timelineData = [
 
 export const techStack = [
   {
-    name: "ExpressJS",
-    image: ExpressJS,
-    level: "Intermediate",
-  },
-
-  {
-    name: "NodeJS",
-    image: NodeJS,
-    level: "Intermediate",
-  },
-
-  {
     name: "ReactJS",
     image: ReactJs,
     level: "Advanced",
@@ -213,7 +201,17 @@ export const techStack = [
     image: TailwindCSS,
     level: "Intermediate",
   },
+  {
+    name: "ExpressJS",
+    image: ExpressJS,
+    level: "Intermediate",
+  },
 
+  {
+    name: "NodeJS",
+    image: NodeJS,
+    level: "Intermediate",
+  },
   {
     name: "Bootstrap",
     image: Bootstrap,
