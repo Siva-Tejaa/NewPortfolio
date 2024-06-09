@@ -422,7 +422,7 @@ export const projectsData = [
     id: 18,
     image: Spotify,
     title: "Spotify",
-    techStack: [ReactJs, Redux, TailwindCSS, NodeJS, ExpressJS, MongoDB],
+    techStack: [ReactJs, Redux, TailwindCSS],
     demo: "https://spotifytunes.vercel.app/",
     gitRepo: "https://github.com/Siva-Tejaa/Spotify",
     status: "In Progress",
