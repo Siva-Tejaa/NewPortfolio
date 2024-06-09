@@ -35,7 +35,7 @@ const Projects = () => {
                   key={index}
                   src={tech}
                   className="w-6 rounded-sm"
-                  title={tech.split(".")[0].slice(22)}
+                  title="Tech Stack"
                 />
               ))}
             </div>
