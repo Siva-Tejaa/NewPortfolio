@@ -48,7 +48,9 @@ const App = () => {
     //For Notification
     Notification.requestPermission().then((permission) => {
       if (permission === "granted") {
-        new Notification("Theme Changed");
+        new Notification(
+          `${darkMode == true ? "⚪️ Light" : "⚫️ Dark"} Theme Enabled`
+        );
       }
     });
   };

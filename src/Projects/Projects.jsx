@@ -7,7 +7,7 @@ import { TbProgressBolt } from "react-icons/tb";
 
 import { FaRegCircleCheck } from "react-icons/fa6";
 
-import { projectsData } from "../utils/Constants";
+import { projectsData, techStack } from "../utils/Constants";
 
 const Projects = () => {
   return (
@@ -29,6 +29,16 @@ const Projects = () => {
               alt="project image"
               className="rounded-sm"
             />
+            <div className="flex items-center gap-2">
+              {project?.techStack.map((tech, index) => (
+                <img
+                  key={index}
+                  src={tech}
+                  className="w-6 rounded-sm"
+                  title={tech.split(".")[0].slice(22)}
+                />
+              ))}
+            </div>
             <h4 className="text-sm laptop:text-base dark:text-darkheader">
               {project?.title}
             </h4>
