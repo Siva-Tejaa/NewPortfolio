@@ -108,7 +108,7 @@ export const aboutMe = [
   {
     icon: <MdOutlineWorkspacePremium fontSize="1.3em" />,
     title: "Experience",
-    subtitle: "2.8+ Years Working",
+    subtitle: "2.9+ Years Working",
   },
   {
     icon: <CgWorkAlt fontSize="1.3em" />,
@@ -204,7 +204,7 @@ export const techStack = [
   {
     name: "ExpressJS",
     image: ExpressJS,
-    level: "Intermediate",
+    level: "Advanced",
   },
 
   {
@@ -213,9 +213,9 @@ export const techStack = [
     level: "Intermediate",
   },
   {
-    name: "Bootstrap",
-    image: Bootstrap,
-    level: "Basic",
+    name: "Mongo DB",
+    image: MongoDB,
+    level: "Intermediate",
   },
 
   {
@@ -223,12 +223,12 @@ export const techStack = [
     image: MySql,
     level: "Intermediate",
   },
-
   {
-    name: "Mongo DB",
-    image: MongoDB,
+    name: "Bootstrap",
+    image: Bootstrap,
     level: "Basic",
   },
+
   {
     name: "Core Java",
     image: CoreJava,
