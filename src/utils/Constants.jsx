@@ -108,7 +108,7 @@ export const aboutMe = [
   {
     icon: <MdOutlineWorkspacePremium fontSize="1.3em" />,
     title: "Experience",
-    subtitle: "2.9+ Years Working",
+    subtitle: "2.10+ Years Working",
   },
   {
     icon: <CgWorkAlt fontSize="1.3em" />,

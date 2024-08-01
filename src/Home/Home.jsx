@@ -44,7 +44,7 @@ const Home = () => {
           />
         </div>
         <h5 className="text-justify text-sm laptop:text-base dark:text-darknormal">
-          A passionate front-end developer with 2.9+ years of experience in
+          A passionate front-end developer with 2.10+ years of experience in
           designing and developing highly responsive websites with elegant and
           efficient code. Currently, I am learning MERN development and
           improving my skills in building responsive full-stack web
