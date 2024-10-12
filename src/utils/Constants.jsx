@@ -18,6 +18,7 @@ import Resume from "../assets/SivaTeja-Resume.pdf";
 import SVArtsCollege from "../assets/Timeline/SV_Arts_College_Tirupati.png";
 import NarayanaEngineeringCollege from "../assets/Timeline/Narayana_Engineering_College_Nellore.png";
 import Xoriant from "../assets/Timeline/Xoriant.jpg";
+import Infosys from "../assets/Timeline/Infosys.png";
 
 //Contact Page || SocialMedia
 import { GoMail } from "react-icons/go";
@@ -71,6 +72,7 @@ import Wedding from "../assets/Projects/Wedding.png";
 import NewPortfolio from "../assets/Projects/NewPortfolio.png";
 import JobGenie from "../assets/Projects/JobGenie.png";
 import Spotify from "../assets/Projects/Spotify.png";
+import MegaMart from "../assets/Projects/MegaMart.png";
 
 export const navItems = [
   {
@@ -108,7 +110,7 @@ export const aboutMe = [
   {
     icon: <MdOutlineWorkspacePremium fontSize="1.3em" />,
     title: "Experience",
-    subtitle: "2.10+ Years Working",
+    subtitle: "3+ Years",
   },
   {
     icon: <CgWorkAlt fontSize="1.3em" />,
@@ -124,12 +126,22 @@ export const aboutMe = [
 
 export const timelineData = [
   {
+    position: "Sr. Associate Consultant",
+    name: "Infosys Limited, Hyderabad",
+    location: "Hyderabad",
+    state: "Telangana",
+    description: "",
+    title: "Oct 2024 - Present",
+    image: Infosys,
+    link: "https://www.infosys.com/",
+  },
+  {
     position: "Software Engineer",
     name: "Xoriant Solutions Pvt. Ltd., Pune",
     location: "Pune",
     state: "Maharashtra",
     description: "",
-    title: "Nov 2022 - Present",
+    title: "Nov 2022 - Sep 2024",
     image: Xoriant,
     link: "https://www.xoriant.com/",
   },
@@ -425,6 +437,15 @@ export const projectsData = [
     techStack: [ReactJs, Redux, TailwindCSS],
     demo: "https://spotifytunes.vercel.app/",
     gitRepo: "https://github.com/Siva-Tejaa/Spotify",
+    status: "In Progress",
+  },
+  {
+    id: 19,
+    image: MegaMart,
+    title: "MegaMart",
+    techStack: [ReactJs, TailwindCSS, NodeJS, ExpressJS, MongoDB],
+    demo: "https://megamartt.vercel.app/",
+    gitRepo: "https://github.com/Siva-Tejaa/megamart-frontend",
     status: "In Progress",
   },
 ];
