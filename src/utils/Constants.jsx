@@ -12,7 +12,7 @@ import { BiSupport } from "react-icons/bi";
 import PortfolioProfileImage from "../assets/PortfolioProfile.png";
 
 //Resume
-import Resume from "../assets/SivaTeja-Resume.pdf";
+import Resume from "../assets/Resume/SivaTeja-Resume.pdf";
 
 //Timeline About
 import SVArtsCollege from "../assets/Timeline/SV_Arts_College_Tirupati.png";
@@ -36,6 +36,7 @@ import GithubIcon from "../assets/SocialMedia/Github.png";
 
 //TechStack
 import ReactJs from "../assets/TechStack/ReactJs.png";
+import NextJs from "../assets/TechStack/NextJs.png";
 import JavaScript from "../assets/TechStack/JavaScript.png";
 import Redux from "../assets/TechStack/Redux.png";
 import CSS3 from "../assets/TechStack/CSS3.png";
@@ -110,7 +111,7 @@ export const aboutMe = [
   {
     icon: <MdOutlineWorkspacePremium fontSize="1.3em" />,
     title: "Experience",
-    subtitle: "3+ Years",
+    subtitle: "3.6+ Years",
   },
   {
     icon: <CgWorkAlt fontSize="1.3em" />,
@@ -182,6 +183,12 @@ export const techStack = [
     name: "ReactJS",
     image: ReactJs,
     level: "Advanced",
+  },
+
+  {
+    name: "NextJS",
+    image: NextJs,
+    level: "Intermediate",
   },
 
   {
