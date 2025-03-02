@@ -36,7 +36,7 @@ import GithubIcon from "../assets/SocialMedia/Github.png";
 
 //TechStack
 import ReactJs from "../assets/TechStack/ReactJs.png";
-import NextJs from "../assets/TechStack/NextJs.png";
+import NextJS from "../assets/TechStack/NextJS.png";
 import JavaScript from "../assets/TechStack/JavaScript.png";
 import Redux from "../assets/TechStack/Redux.png";
 import CSS3 from "../assets/TechStack/CSS3.png";
@@ -187,7 +187,7 @@ export const techStack = [
 
   {
     name: "NextJS",
-    image: NextJs,
+    image: NextJS,
     level: "Intermediate",
   },
 
