@@ -31,6 +31,7 @@ import Twitter from "../assets/SocialMedia/Twitter.png";
 import LinkedIn from "../assets/SocialMedia/LinkedIn.png";
 import Whatsapp from "../assets/SocialMedia/Whatsapp.png";
 import GithubIcon from "../assets/SocialMedia/Github.png";
+import MSTeams from "../assets/SocialMedia/MSTeams.png";
 
 //For Images https://marwin1991.github.io/profile-technology-icons/
 
@@ -111,7 +112,7 @@ export const aboutMe = [
   {
     icon: <MdOutlineWorkspacePremium fontSize="1.3em" />,
     title: "Experience",
-    subtitle: "3.6+ Years",
+    subtitle: "3.7+ Years",
   },
   {
     icon: <CgWorkAlt fontSize="1.3em" />,
@@ -521,5 +522,11 @@ export const socialMedia = [
     name: "Github",
     icon: GithubIcon,
     link: "https://github.com/Siva-Tejaa",
+  },
+  {
+    id: 7,
+    name: "Microsoft Teams",
+    icon: MSTeams,
+    link: "https://teams.microsoft.com/l/chat/0/0?users=asivateja1999@gmail.com&message=Hello!",
   },
 ];

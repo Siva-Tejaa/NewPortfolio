@@ -40,8 +40,10 @@ const SocialProfiles = () => {
               <a
                 key={socialMedia.id}
                 href={socialMedia.link}
+                title={socialMedia.name}
                 target="_blank"
-                className=""
+                rel="noopener noreferrer"
+                className="rounded-md"
               >
                 <img src={socialMedia?.icon} width="20px" />
               </a>

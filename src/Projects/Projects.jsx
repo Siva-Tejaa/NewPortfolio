@@ -27,7 +27,7 @@ const Projects = () => {
             <img
               src={project?.image}
               alt="project image"
-              className="rounded-sm"
+              className="rounded-sm h-32 bg-[#f4f5f9] dark:bg-[#363638]"
             />
             <div className="flex items-center gap-2">
               {project?.techStack.map((tech, index) => (
