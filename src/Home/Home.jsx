@@ -3,7 +3,11 @@ import "./Home.css";
 
 import { Typewriter } from "react-simple-typewriter";
 
-import { PortfolioProfile, SivaTejaResume } from "../utils/Constants";
+import {
+  myDescription,
+  PortfolioProfile,
+  SivaTejaResume,
+} from "../utils/Constants";
 
 import { MdOutlineFileDownload } from "react-icons/md";
 import { BiMessageSquareDetail } from "react-icons/bi";
@@ -44,11 +48,7 @@ const Home = () => {
           />
         </div>
         <h5 className="text-justify text-sm laptop:text-base dark:text-darknormal">
-          A passionate front-end developer with 3.6+ years of experience in
-          designing and developing highly responsive websites with elegant and
-          efficient code. Currently, I am learning MERN development and
-          improving my skills in building responsive full-stack web
-          applications.
+          {myDescription}
         </h5>
         <div className="flex items-center justify-around gap-4 text-sm laptop:text-base">
           <a

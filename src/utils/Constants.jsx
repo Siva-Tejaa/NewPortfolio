@@ -40,6 +40,7 @@ import ReactJs from "../assets/TechStack/ReactJs.png";
 import NextJS from "../assets/TechStack/NextJS.png";
 import JavaScript from "../assets/TechStack/JavaScript.png";
 import Redux from "../assets/TechStack/Redux.png";
+import ReactQuery from "../assets/TechStack/ReactQuery.png";
 import CSS3 from "../assets/TechStack/CSS3.png";
 import Html5 from "../assets/TechStack/Html5.png";
 import Bootstrap from "../assets/TechStack/Bootstrap.png";
@@ -108,11 +109,19 @@ export const PortfolioProfile = PortfolioProfileImage;
 
 export const SivaTejaResume = Resume;
 
+export const totalExperience = "3.8+";
+
+export const myDescription = `A passionate front-end developer with ${totalExperience} years of experience in
+          designing and developing highly responsive websites with elegant and
+          efficient code. Currently, I am learning MERN development and
+          improving my skills in building responsive full-stack web
+          applications.`;
+
 export const aboutMe = [
   {
     icon: <MdOutlineWorkspacePremium fontSize="1.3em" />,
     title: "Experience",
-    subtitle: "3.7+ Years",
+    subtitle: `${totalExperience} Years`,
   },
   {
     icon: <CgWorkAlt fontSize="1.3em" />,
@@ -201,6 +210,12 @@ export const techStack = [
   {
     name: "Redux",
     image: Redux,
+    level: "Intermediate",
+  },
+
+  {
+    name: "React Query",
+    image: ReactQuery,
     level: "Intermediate",
   },
 
