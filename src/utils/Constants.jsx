@@ -109,7 +109,7 @@ export const PortfolioProfile = PortfolioProfileImage;
 
 export const SivaTejaResume = Resume;
 
-export const totalExperience = "3.8+";
+export const totalExperience = "3.10+";
 
 export const myDescription = `A passionate front-end developer with ${totalExperience} years of experience in
           designing and developing highly responsive websites with elegant and

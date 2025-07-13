@@ -11,6 +11,7 @@ import Contact from "./Contact/Contact";
 import MobileNav from "./Header/MobileNav";
 
 import { Context } from "./utils/Context";
+import NetworkStatus from "./NetworkStatus/NetworkStatus";
 
 const App = () => {
   const dialogModal = useRef(null);
@@ -116,6 +117,7 @@ const App = () => {
         }}
       >
         <Header />
+        <NetworkStatus />
         <MobileNav />
         <main className="bg-background3 dark:bg-[#252424]">
           <Home />
