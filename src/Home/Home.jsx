@@ -41,6 +41,7 @@ const Home = () => {
               "Front-End Developer",
               "Web Developer",
               "ReactJs Developer",
+              "NextJS developer",
               "MERN Stack Developer",
             ]}
             loop={0}

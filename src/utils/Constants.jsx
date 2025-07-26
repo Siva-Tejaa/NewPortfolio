@@ -12,7 +12,7 @@ import { BiSupport } from "react-icons/bi";
 import PortfolioProfileImage from "../assets/PortfolioProfile.png";
 
 //Resume
-import Resume from "../assets/Resume/SivaTeja-Resume.pdf";
+import Resume from "../assets/Resume/SivaTeja_Frontend_Developer_4Years.pdf";
 
 //Timeline About
 import SVArtsCollege from "../assets/Timeline/SV_Arts_College_Tirupati.png";
